@@ -140,7 +140,7 @@ def getRegions(district):
 
 
 if __name__ =="__main__":
-    districts = ['平谷']
+    districts = ['西城']
 
     for district in districts:
         regions = getRegions(district)

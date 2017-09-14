@@ -29,7 +29,7 @@ if __name__ =="__main__":
         i+=1
     print i
     result = pd.concat(data_all)
-    result.to_csv('test.csv')
+    result.to_csv('test.csv', index=False)
 
 
 
